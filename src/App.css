@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@font-face {
+    font-family: 'ethnocentric';
+    src: url('./resources/ethnocentric.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFCF2;
+}
+
+.header {
+    height: 25%;
+    min-height: 80px;
+    padding-left: 30px;
+    padding-right: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url('./resources/header1.jpg') center;
+    opacity: 0.5;
+}
+
+.logo {
+    padding-top: 20px;
+    font-family:'ethnocentric';
+    color:black;
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo-kbk {
+    font-size: 40px;
+}
+
+.logo-softare-solutions {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.menu {
+    font-family: Poppins;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.passive-menu-button {
+    color: black;
+    text-decoration: none;
+}
+
+.active-menu-button {
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+.active-menu-button:hover {
+    color: darkslategray;
+}
+
+.passive-menu-button:hover {
+    color: white;
+}
+
+.body {
+    padding: 50px;
+    font-family: Poppins;
+    background-color: #FFFCF2;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.smart {
+    font-size: 30px;
+    color:black;
+}
+
+.text-wrapper {
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 40%;
+}
+
+.footer {
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+    align-items: baseline;
+}
+
+.contact-button {
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+
+    margin-left: 15%;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.contact-button:hover {
+    background-color: orange;
+}

@@ -1,0 +1,22 @@
+.contact-form-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 50%;
+    min-width: 200px;
+    height: 30%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background:#FFFCF2;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin: 20px;
+}
