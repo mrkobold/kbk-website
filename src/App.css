@@ -12,19 +12,18 @@
     padding: 0;
 }
 
-.page {
-    position: absolute;
+.whole-page {
+    position: relative;
     top: 0;
     bottom: 0;
-    width: 100%;
+    height: 100vh;
     background-color: #FFFCF2;
 }
 
 .header {
     height: 25%;
     min-height: 80px;
-    padding-left: 30px;
-    padding-right: 10px;
+    
     z-index: 1;
     position: relative;
 }
@@ -43,10 +42,13 @@
 
 .logo {
     padding-top: 20px;
-    font-family:'ethnocentric';
-    color:black;
+    padding-left: 30px;
+
     display: flex;
     align-items: flex-end;
+
+    font-family:'ethnocentric';
+    color:black;
 }
 
 .logo-kbk {
@@ -54,26 +56,29 @@
 }
 
 .logo-softare-solutions {
-    font-size: 20px;
     margin-bottom: 6px;
+    font-size: 20px;
 }
 
 .menu {
-    font-family: Poppins;
-    font-size: 30px;
     position: absolute;
     right: 30px;
     bottom: 10px;
+
     display: flex;
-    gap: 20px;
+
+    font-family: Poppins;
+    font-size: 30px;
 }
 
 .passive-menu-button {
+    margin-left: 10px;
     color: black;
     text-decoration: none;
 }
 
 .active-menu-button {
+    margin-left: 10px;
     color: lightslategrey;
     text-decoration: none;
 }
@@ -86,13 +91,9 @@
     color: white;
 }
 
-.body {
-    padding: 50px;
-    font-family: Poppins;
-    background-color: #FFFCF2;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.page-body {
+    padding: 0;
+    margin: 0;
 }
 
 .smart {
@@ -101,9 +102,11 @@
 }
 
 .text-wrapper {
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-top: 10%;
     max-width: 40%;
+    
+    font-family: Poppins;
 }
 
 .footer {
@@ -114,7 +117,6 @@
     text-align: center;
     font-size: 12px;
     width: 100%;
-    align-items: baseline;
 }
 
 .contact-button {

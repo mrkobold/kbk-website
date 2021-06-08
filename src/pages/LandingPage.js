@@ -9,7 +9,7 @@ const LandingPage = () => {
     }
 
     return (
-        <div className="body">
+        <div>
             <div className="text-wrapper">
                 <div className="smart">"was ist nicht gut, ist schlecht"</div>
                 We believe that high quality solutions and short time notices aren’t mutually exclusive. Let’s keep it simple.

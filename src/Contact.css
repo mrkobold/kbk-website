@@ -1,22 +1,58 @@
-.contact-form-wrapper {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 50%;
-    min-width: 200px;
-    height: 30%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+.contact-page-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 400px;
+
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+}
+
+
+.contact-form-wrapper {
+    position: static;
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    background:#FFFCF2;
-    border: 1px solid red;
-    padding: 10px;
+    flex-direction: row;
 }
 
 input {
+    width: 200px;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    background: none;
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+input:focus {
+    /* width: 250px; */
     display: block;
     margin: 20px;
+
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.submit-button {
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-family: Poppins;
+    font-size: 12px;
+
+    max-height: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.submit-button:hover {
+    background-color: orange;
 }
