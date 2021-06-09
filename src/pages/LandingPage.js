@@ -1,10 +1,10 @@
+import "../css/Landing.css"
+
 import { NavLink } from "react-router-dom";
-import "../css/App.css"
 
 
 const LandingPage = () => {
     const processContactClick = () => {
-
         console.log("clicked");
     }
 

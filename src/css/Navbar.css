@@ -1,0 +1,30 @@
+.menu {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+
+    display: flex;
+
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+.passive-menu-button {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.active-menu-button {
+    margin-left: 10px;
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+.active-menu-button:hover {
+    color: darkslategray;
+}
+
+.passive-menu-button:hover {
+    color: white;
+}

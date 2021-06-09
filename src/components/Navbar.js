@@ -1,3 +1,5 @@
+import '../css/Navbar.css'
+
 import {NavLink, useLocation} from 'react-router-dom';
 
 const Navbar = () => {
