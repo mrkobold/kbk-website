@@ -1,6 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 
-import "./App.css"
+import "./css/App.css"
 
 import LandingPage from './pages/LandingPage';
 import Portfolio from './pages/Portfolio';

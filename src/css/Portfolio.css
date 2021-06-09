@@ -1,0 +1,20 @@
+.portfolio-page-wrapper {
+    position: relative;
+}
+
+.portfolio-card-collection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-card {
+    width: 300px;
+    height: 400px;
+    min-width: 10%;
+    min-height: 10%;
+
+    margin: 10px;
+
+    border: 1px solid coral;
+}

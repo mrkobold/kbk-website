@@ -2,27 +2,33 @@
 
 @font-face {
     font-family: 'ethnocentric';
-    src: url('./resources/ethnocentric.ttf');
+    src: url('../resources/ethnocentric.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
 .whole-page {
     position: relative;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #FFFCF2;
+}
+
+.page-body {
+}
+
+.footer {
+    position: absolute;
+    bottom : 0;
+    width: 100%;
+    
+    background-color: #c4c4c4;
+    text-align: center;
+    font-size: 12px;
 }
 
 .header {
     height: 25%;
-    min-height: 80px;
+    min-height: 180px;
     
     z-index: 1;
     position: relative;
@@ -36,7 +42,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url('./resources/header1.jpg') center;
+    background: url('../resources/header1.jpg') center;
     opacity: 0.5;
 }
 
@@ -91,11 +97,6 @@
     color: white;
 }
 
-.page-body {
-    padding: 0;
-    margin: 0;
-}
-
 .smart {
     font-size: 30px;
     color:black;
@@ -107,16 +108,6 @@
     max-width: 40%;
     
     font-family: Poppins;
-}
-
-.footer {
-    background-color: #c4c4c4;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    font-size: 12px;
-    width: 100%;
 }
 
 .contact-button {
